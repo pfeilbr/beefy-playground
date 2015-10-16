@@ -1,0 +1,23 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Beefy Playground</title>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+</head>
+<body>
+
+<h1><a href="http://didact.us/beefy/" target="_blank">Beefy</a> Playground</h1>
+
+<div id="accordion">
+  {{#sections}}
+  <h3>{{title}}</h3>
+  <div>
+    <p>
+    {{body}}
+    </p>
+  </div>
+  {{/sections}}
+</div>
+
+</body>
+</html>
